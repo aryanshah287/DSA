@@ -1,4 +1,4 @@
-package easy
+package basic
 
 func upperBound(nums []int, target int) int {
 	return upperBoundRecursive(nums, 0, len(nums)-1, target, len(nums))

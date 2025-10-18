@@ -1,4 +1,4 @@
-package easy
+package basic
 
 func searchInsert(nums []int, target int) int {
 	return recursiveBinarySearchInsert(nums, 0, len(nums)-1, target, len(nums))

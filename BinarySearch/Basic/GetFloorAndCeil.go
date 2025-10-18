@@ -1,4 +1,4 @@
-package easy
+package basic
 
 func getFloorAndCeil(nums []int, x int) []int {
 	return []int{

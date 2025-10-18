@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func countOccurrences(nums []int, target int) int {
 	first := findFirstOccurrenceCount(nums, target)

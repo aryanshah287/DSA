@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func search(nums []int, target int) int {
 	start := 0

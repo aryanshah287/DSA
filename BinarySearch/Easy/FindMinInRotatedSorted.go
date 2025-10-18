@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func findMin(nums []int) int {
 	start := 0

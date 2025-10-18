@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func searchRange(nums []int, target int) []int {
 	var ans []int

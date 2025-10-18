@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func findKRotation(nums []int) int {
 	start := 0
