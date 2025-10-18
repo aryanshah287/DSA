@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func NthRoot(N int, M int) int {
 	start := int64(0)

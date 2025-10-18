@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func minDays(bloomDay []int, m int, k int) int {
 	ans := -1

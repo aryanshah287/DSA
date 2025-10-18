@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func findKthPositive(arr []int, k int) int {
 	start := 0

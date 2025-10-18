@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func smallestDivisor(nums []int, threshold int) int {
 	start := 1

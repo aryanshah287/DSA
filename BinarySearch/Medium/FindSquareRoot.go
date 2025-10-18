@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func floorSqrt(n int64) int64 {
 	if n == 0 || n == 1 {

@@ -1,4 +1,4 @@
-package hard
+package medium
 
 func shipWithinDays(weights []int, days int) int {
 	start := 1
