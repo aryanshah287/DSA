@@ -1,0 +1,18 @@
+package easy
+
+func upperBound(nums []int, target int) int {
+	return upperBoundRecursive(nums, 0, len(nums)-1, target, len(nums))
+}
+
+func upperBoundRecursive(nums []int, low, high, target, ans int) int {
+	if low > high {
+		return ans
+	}
+
+	mid := (low + high) / 2
+
+	if nums[mid] > target {
+		return upperBoundRecursive(nums, low, mid-1, target, mid)
+	}
+	return upperBoundRecursive(nums, mid+1, high, target, ans)
+}
