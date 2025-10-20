@@ -1,4 +1,4 @@
-package easy
+package basic
 
 func search(nums []int, target int) int {
 	return recursiveBinary(nums, 0, len(nums)-1, target)
