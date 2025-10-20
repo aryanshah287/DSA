@@ -1,4 +1,4 @@
-package medium
+package easy
 
 func singleNonDuplicate(nums []int) int {
 	if len(nums) == 1 {
